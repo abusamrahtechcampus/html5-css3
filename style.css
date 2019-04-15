@@ -1,0 +1,150 @@
+
+*{
+	 margin: 0;
+	 padding: 0;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+body{
+	font-family: arial,tahoma;
+}
+
+
+ul{
+
+	list-style: none;
+}
+.clearfix{
+	clear: both;
+}
+
+
+
+/*--- mainhead------*/
+.mainh{
+	background-color: #333;
+	color: #ddd;
+	padding: 20px;
+	text-align: center;
+	height: 100px;
+}
+nav{
+	background-color: #ddd;
+	text-align: center;
+}
+nav ul{
+	padding: 20px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+}
+
+nav ul li:after{
+
+	content: " |";
+}
+nav ul li:last-child:after{
+	content: "";
+}
+ 
+
+main{
+	
+	background-color: #eee;
+	padding: 20px;
+}
+
+main p{
+	text-align: center;
+}
+ 
+.post{
+
+	width: 70%;
+	float: left;
+}
+
+.post article{
+	
+	background-color: #f6f6f6;
+	border: 1px solid #ccc;
+	margin: 20px;
+}
+
+.post article header{
+	padding: 10px;
+    background-color: #a9a9a9;
+
+}
+
+ .post article section{
+	padding: 10px;
+}
+
+footer{
+	background-color: #333;
+	text-align: center;
+	padding: 10px;
+	color: #ddd;
+}
+aside{
+    float: right;
+    width: 30%;
+
+}
+
+aside section{
+
+	background-color: #eee;
+	margin: 20px 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+aside section h3{
+
+	background-color: #d1d1d1;
+	padding: 10px;
+
+}
+
+aside section ul{
+	margin-top: 10px;
+
+}
+aside section ul li{
+	line-height: 1.4;
+}
+
+.imgfig{
+
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	width: 600px;
+	text-align: center;
+}
+.post article section .imgfig img{
+	border: 1px solid #ccc;
+	padding: 3px;
+	background-color: #fff;
+
+}
+.logo{
+
+	margin-right: 20px;
+	float:right;
+}
+
+.login{
+
+	float: left;
+	padding-left: 20px;
+	background-color:#333:; 
+	font-size: 14pt;
+}
