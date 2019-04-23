@@ -5,6 +5,7 @@
 	-webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
+    text-decoration: none;
 }
 
 
@@ -29,11 +30,12 @@ ul{
 	color: #ddd;
 	padding: 20px;
 	text-align: center;
-	height: 100px;
 }
 nav{
 	background-color: #ddd;
 	text-align: center;
+		font-size: 16pt;
+	 font-weight: bold;
 }
 nav ul{
 	padding: 20px;
@@ -50,7 +52,9 @@ nav ul li:after{
 nav ul li:last-child:after{
 	content: "";
 }
- 
+  nav ul li a:hover{
+ 	font-size: 18pt
+ }
 
 main{
 	
@@ -77,7 +81,7 @@ main p{
 
 .post article header{
 	padding: 10px;
-    background-color: #a9a9a9;
+background-color: #a9a9a9;
 
 }
 
@@ -140,11 +144,45 @@ aside section ul li{
 	margin-right: 20px;
 	float:right;
 }
+#show{
+	color: red;
+	font-size: 18pt;
+}
 
-.login{
+#demoqqq{
+     font-size:18pt;
+     font-weight: bold;
+}
 
-	float: left;
-	padding-left: 20px;
-	background-color:#333:; 
-	font-size: 14pt;
+button{
+    font-weight: bold;
+	border-radius: 5px;
+    font-size:14pt;
+	padding:5px;
+}
+
+input{
+   padding:2px;
+    font-size:14pt;
+    background-color: #c7ecee;
+
+}
+
+
+
+#Validate-Input{
+
+	font-size: 16pt;
+}
+
+
+#Validate-Input span{
+     font-weight: bold;
+	 color: red;
+}
+#demoValidate{
+	font-size: 16pt;
+     font-weight: bold;
+	 color: blue;
+
 }

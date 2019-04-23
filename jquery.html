@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+	<meta charset="utf-8">
+	<meta name="author" content=" Abusamrah">
+	<meta name="keywords" content="HTML,CSS3,XML,JavaScript" >
+	<meta name="viewport" content="width=divce-width" >
+	
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> My First jQuery Project </title>
+</head>
+<body>
+
+
+
+
+
+
+<img class="logo" src="images/logo.jpg" width="75px">
+	    <header class="mainh">
+	    	<h1> Python Bootcamp </h1>
+		
+
+	    </header>
+
+	   
+
+	                  <script> 
+                $(document).ready(function(){
+                 $("#flip").click(function(){
+                $("#panel").slideToggle("slow");
+                });
+                });
+            </script>
+
+
+
+              <style> 
+              #panel, #flip {
+              padding: 5px;
+              text-align: center;
+              background-color: #e5eecc;
+              border: solid 1px #c3c3c3;
+              font-size: 18pt;
+              font-weight: bold;
+              color:red;
+              }
+
+               #panel {
+               padding: 50px;
+               display: none;
+                }
+            </style>
+            </head>
+            <body>
+ 
+                 <div id="flip">إضغط هنا للقائمة الرئيسيه</div>
+                 <div id="panel">	      <nav>
+		      <ul>
+		    	<li><a href="index.html"> Home Page </a></li>
+			    <li><a href="sdript.html"> JavaScript </a></li>
+			    <li><a href="jquery.html"> jQuery </a></li>
+			    <li><a href="#"> Comming Soon </a></li>
+		      </ul>
+
+	      </nav></div>
+
+                     <main>
+                        	<p> Welcome To My First jQuery Project </p>
+                     </main>
+                             
+	      <div class="post">
+
+                   
+                   <article>
+          	<header>
+          		<h3>artical #1</h3>
+          		<p> writin by abusamrah</p>
+          	</header>
+          	<section>
+              
+
+               <script>
+
+                            $(document).ready(function(){
+                            $("#show2").click(function(){
+                            $("#p12,#show2").hide();
+                            });
+                            });
+                          </script>
+                          <script>
+                            $(document).ready(function(){
+                            $("#show1").click(function(){
+                            $("#p12,#show2").show();
+                            });
+                            });
+                         </script>
+
+
+              <h2>This is a heading</h2>
+
+              <p id="p12">This is a paragraph.</p>
+              <p id="p12">This is another paragraph.</p>
+
+             <button id="show2">Click me to hide paragraphs</button><br>
+             <button id="show1">Click me to Show paragraphs</button>
+
+
+
+
+          	   	</section>
+           </article>
+                
+
+                   <article>
+          	                <header>
+          	                     	<h3>artical #1</h3>
+          	                  	<p> writin by abusamrah</p>
+          	                </header>
+          	     <section>
+  
+
+                                  <script>
+                                   $(document).ready(function(){
+                                   $("#fadeI").click(function(){
+                                   $("#div1").fadeIn();
+                                   $("#div2").fadeIn("slow");
+                                   $("#div3").fadeIn(3000);
+                                   });
+                                   });
+                                  </script>
+                                 
+                                    <p>Demonstrate fadeIn() with different parameters.</p>
+
+                                     <button id="fadeI">Click to fade in boxes</button>
+
+                                     <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div>
+                                    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div>                            
+                                    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+
+          		</section>
+           </article>
+                
+
+
+
+
+                               <article>
+          	<header>
+          		<h3>artical #1</h3>
+          		<p> writin by abusamrah</p>
+          	</header>
+          	<section>
+	          		
+
+                            <script>
+                            $(document).ready(function(){
+                              $("#Tog").click(function(){
+                                $("#pp,#pp1").toggle();
+                              });
+                            });
+                            </script>
+                          
+
+                            <button id="Tog">Toggle between hiding and showing the paragraphs</button>
+
+                            <p id="pp">This is a paragraph with little content.</p>
+                            <p id="pp1">This is another small paragraph.</p>
+
+
+
+          		</section>
+              </article>
+
+
+
+
+
+
+                               <article>
+                  <header>
+                   <h3>artical #1</h3>
+              <p> writin by abusamrah</p>
+            </header>
+                                <section>
+                
+                                            <script>
+                                    
+                                               $(document).ready(function(){
+                                               $("#yel").click(function(){
+                                               $("#paw1,#paw2,#paw3,#paw4").css("background-color", "yellow");
+                                                });
+                                                });
+                                            </script>
+                                          
+                                                <h2>This is a heading</h2>
+
+                                               <p id="paw1" style="background-color:#ff0000">This is a paragraph.</p>
+                                               <p id="paw2" style="background-color:#00ff00">This is a paragraph.</p>
+                                               <p id="paw3" style="background-color:#0000ff">This is a paragraph.</p>
+
+                                               <p id="paw4" >This is a paragraph.</p>
+
+                                               <button id="yel">Set background-color of p</button>   
+
+
+                                         
+                                        </section>
+                                     </article>
+                              
+
+
+           </div>
+
+           <aside>
+           	<section class="links">
+           		<h3> jQuery </h3>
+           	      	<center>
+                      
+               <script>
+                 $(document).ready(function(){
+                 $("#slideD").click(function(){
+                 $("#p3").css("color", "red")
+                 .slideUp(2000)
+                 .slideDown(2000);
+                   });
+                   });
+              </script>
+
+
+                 <p id="p3">jQuery is fun!!</p>
+
+                <button id="slideD">Click me</button>
+
+
+                    </center>
+           	</section>
+           </aside>
+              <aside>
+           	<section class="links">
+           		<h3>jQuery</h3>
+                 <div>
+                 	
+                  <script>
+                         $(document).ready(function(){
+                         $("#hhh").click(function(){
+                         $(this).hide();
+                       });
+                       });
+                 </script>
+
+
+                         <p id="hhh">If you click on me, I will disappear.</p>
+
+                
+                 </div>
+           	</section>
+           </aside>
+
+          
+
+           <div class="clearfix"></div>
+
+           <footer>
+           	
+           	copy right 2019 &copy; to abusamrah
+           </footer>
+
+</body>
+</html>

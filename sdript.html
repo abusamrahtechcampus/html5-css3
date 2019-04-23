@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content=" Abusamrah">
+	<meta name="keywords" content="HTML,CSS3,XML,JavaScript" >
+	<meta name="viewport" content="width=divce-width" >
+	
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> My First JavaScript Project </title>
+</head>
+<body>
+
+<script type="text/javascript">
+window.alert("حياكم الله وشكرا لزيارتكم ");
+
+</script>
+
+
+
+
+<img class="logo" src="images/logo.jpg" width="75px">
+	    <header class="mainh">
+	    	<h1> Python Bootcamp </h1>
+		
+
+	    </header>
+
+	   
+
+	      <nav>
+		      <ul>
+		    	<li><a href="index.html"> Home Page </a></li>
+			    <li><a href="sdript.html"> JavaScript </a></li>
+			    <li><a href="jquery.html"> JQuery </a></li>
+			    <li><a href="#"> Comming Soon </a></li>
+		      </ul>
+
+	      </nav>
+
+                     <main>
+                        	<p> Welcome To My First JavaScript Project </p>
+                     </main>
+                             
+	      <div class="post">
+
+                   
+                   <article>
+          	<header>
+          		<h3>artical #1</h3>
+          		<p> writin by abusamrah</p>
+          	</header>
+          	<section>
+              
+              <h2>Date And Time</h2>
+
+                   <button type="button"
+                   onclick="document.getElementById('demoqqq').innerHTML = Date()">
+                   Click me to display Date and Time.</button>
+
+                   <p id="demoqqq"></p>
+                    
+
+
+          		</section>
+           </article>
+                
+
+
+
+
+
+
+
+
+                   <article>
+          	<header>
+          		<h3>artical #1</h3>
+          		<p> writin by abusamrah</p>
+          	</header>
+          	<section>
+            <h2>Function in JavaScript</h2>
+                 First name: <input type="text" id="firstname" placeholder=" Enter Fname" ><br>
+                 Last name: <input type="text" id="lastname" placeholder=" Enter Lname" ><br>
+
+                      <button onclick="displayuser()"> Show Name </button>
+                   
+                      <h3 id="show"> </h3>
+
+                       <script src="sdript.js"></script>
+                    
+
+
+          		</section>
+           </article>
+                
+
+
+
+
+
+
+
+    
+
+             <article>
+          	<header>
+          		<h3>artical #2</h3>
+          		<p> writin by abusamrah</p>
+          	</header>
+          	<section>
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'">Make Font Bigger</button>
+
+          		</section>
+           </article>
+
+
+
+                               <article>
+          	<header>
+          		<h3>artical #1</h3>
+          		<p> writin by abusamrah</p>
+          	</header>
+          	<section>
+	          		<p>Lorem ipsum dolor sit amet</p>
+
+	          	<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Turn off the light</button>
+          		</section>
+           </article>
+                     <article>
+          	<header>
+          		<h3>artical #2</h3>
+          		<p> writin by abusamrah</p>
+          	</header>
+          	<section>
+	          		<h2>JavaScript Alert</h2>
+
+<button onclick="myFunction()">Show Alert</button>
+
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
+
+          		</section>
+           </article>
+           
+
+           </div>
+
+           <aside>
+           	<section class="links">
+           		<h3> SSL Certificate security </h3>
+           		<center>
+<span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=JfT4R4lPV1DNB2KrS3djdKDgHrW7ft1eO0chbRoWAGVj2rn5afxYlGgR25A9"></script></span>
+                    </center>
+           	</section>
+           </aside>
+              <aside>
+           	<section class="links">
+           		<h3>Performance</h3>
+                 <div>
+                 	
+                <p>Click "Try it". Wait 3 seconds, and the page will alert "Hello".</p>
+
+<button onclick="setTimeout(myFunction1, 3000);">Try it</button>
+
+<script>
+function myFunction1() {
+  alert('Hello');
+}
+</script>
+                 </div>
+
+           	</section>
+           </aside>
+
+             <aside>
+           	<section class="poll">
+           		<h3>JavaScript</h3>
+
+            <form>
+
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo2">JavaScript can change HTML content.</p>
+
+<button style="border: 1px soled #eee" type="button" onclick='document.getElementById("demo2").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+
+
+
+            </form>
+           	</section>
+           </aside>
+
+             <aside>
+           	<section class="poll">
+           		<h3>JavaScript</h3>
+
+            <form>
+
+
+
+                <h2>JavaScript Can Validate Input</h2>
+
+               <p id="Validate-Input">input a number between <span>1</span> and <span>10</span>:</p>
+
+              <input id="numb"><br>
+
+                  <button type="button" onclick="myFunction()">Submit</button>
+
+            <p id="demoValidate"></p>
+
+                    <script>
+                       function myFunction() {
+                       var x, text;
+
+                       // Get the value of the input field with id="numb"
+                       x = document.getElementById("numb").value;
+
+                      // If x is Not a Number or less than one or greater than 10
+                       if (isNaN(x) || x < 1 || x > 10) {
+                      text = "Input not valid";
+                    } else {
+                      text = "Input OK";
+                     }
+                            document.getElementById("demoValidate").innerHTML = text;
+                    }
+                </script>
+
+
+            </form>
+           	</section>
+           </aside>
+
+
+
+
+           <div class="clearfix"></div>
+
+           <footer>
+           	
+           	copy right 2019 &copy; to abusamrah
+           </footer>
+
+</body>
+</html>
